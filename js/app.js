@@ -25,7 +25,7 @@ do {
 	numeroPrimo++;
 	do {
 		number++;
-	}while(numeroPrimo % number != 0);
+	} while(numeroPrimo % number != 0);
 
 	if(number == numeroPrimo) {
 		contentPrimos.innerHTML += `<li class='content-primos-number'>${numeroPrimo}</li>`;
@@ -33,5 +33,5 @@ do {
 		limitOfNumber++;
 	}
 
-}while(limitOfNumber + 1 != numeroPrimo); 
+} while(limitOfNumber + 1 != numeroPrimo); 
 
