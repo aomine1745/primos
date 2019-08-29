@@ -49,3 +49,10 @@ body {
 .btn-primary:active {
 	transform: scale(.9);
 }
+
+.img {
+	position: absolute;
+	bottom: 4px;
+	right: 20px;
+	opacity: 1;
+}
